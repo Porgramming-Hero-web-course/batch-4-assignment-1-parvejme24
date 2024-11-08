@@ -4,5 +4,4 @@ function countWordOccurrences(sentence: string, word: string): number {
   return wordsArray.filter((w) => w === targetWord).length;
 }
 
-// Sample Input:
 console.log(countWordOccurrences("I love typescript", "typescript"));

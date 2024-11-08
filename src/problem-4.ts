@@ -20,14 +20,21 @@ function calculateShapeArea(shape: Shape): number {
   throw new Error("Invalid shape");
 }
 
-// Sample Input 1:
-const circleArea = calculateShapeArea({ shape: "circle", radius: 5 });
-console.log(circleArea); // Output: 78.54
+// functiona checking
+// ========================
 
-// Sample Input 2:
+// input 1:
+const circleArea = calculateShapeArea({ shape: "circle", radius: 6 });
+
+// output
+console.log(circleArea);
+
+// input 2:
 const rectangleArea = calculateShapeArea({
   shape: "rectangle",
-  width: 4,
-  height: 6,
+  width: 3,
+  height: 5,
 });
-console.log(rectangleArea); // Output: 24
+
+// output checking
+console.log(rectangleArea);
