@@ -17,4 +17,4 @@ class Car {
 
 // Sample Input:
 const car = new Car("Honda", "Civic", 2018);
-console.log(car.getCarAge()); // Output: 6 (assuming current year is 2024)
+console.log(car.getCarAge());
